@@ -27,11 +27,11 @@ process(BCD)
 begin
 
 	case BCD is
-	when "0000" => Seven7 <= "0000001"; ---0
+	when "0000" => Seven7 <= "0000001"; ---outputnya pada seven segment 0
 	when "0001" => Seven7 <= "1001111"; ---1
 	when "0010" => Seven7 <= "0010010"; ---2
 	when "0011" => Seven7 <= "0000110"; ---3
-	when others => Seven7 <= "1111111"; ---null
+	when others => Seven7 <= "1111111"; ---all active
 	end case;
 
 end process;
