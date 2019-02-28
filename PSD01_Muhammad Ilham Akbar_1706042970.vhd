@@ -38,7 +38,7 @@ Begin
 		when "0111" => Seg7 <= "0001111"; ---7
 		when "1000" => Seg7 <= "0000000"; ---8
 		when "1001" => Seg7 <= "0000100"; ---9
-		when others => Seg7 <= "1111111"; ---null
+		when others => Seg7 <= "1111111"; ---unknown
 	end case;
 	
 	end process;
