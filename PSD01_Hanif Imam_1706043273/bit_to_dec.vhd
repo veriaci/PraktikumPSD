@@ -1,3 +1,7 @@
+--Nama    : Hanif Imam
+--NPM     : 1706043273
+--Project : Seven Segment Modul 01 Praktikum PSD
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
